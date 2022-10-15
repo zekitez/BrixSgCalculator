@@ -9,8 +9,11 @@ that calculates the amount of sugar required for brewing wine with a certain per
 So I came up with this Android app BrixSgCalculator.
 
 Enter the measured BRIX/SG is converted to SG/BRIX, to the amount of sugar in the liquid and to what alcohol percentage this leads.
+
 Enter the desired alcohol Vol % and it calculates the required: BRIX, SG, sugar; and based on the measured BRIX or SG how much sugar is missing.
+
 Enter the available volume liquid, or juice, and it calculates how much sugar is missing in the liquid based on the measured BRIX or SG; and desired alcohol Vol %.
+
 All values are in SI base units (gram, liter,  https://en.wikipedia.org/wiki/SI_base_unit
 
 <img src="Screenshots/main.png" height="300" alt="Screenshot" /> <img src="Screenshots/prefs.png" height="300" alt="Screenshot"/> <img src="Screenshots/sugar.png" height="300" alt="Screenshot"/> <img src="Screenshots/conv.png" height="300" alt="Screenshot"/>
