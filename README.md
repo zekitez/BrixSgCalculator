@@ -13,7 +13,7 @@ Enter the desired alcohol Vol % and it calculates the required: BRIX, SG, sugar;
 Enter the available volume liquid, or juice, and it calculates how much sugar is missing in the liquid based on the measured BRIX or SG; and desired alcohol Vol %.
 All values are in SI base units (gram, liter,  https://en.wikipedia.org/wiki/SI_base_unit
 
-<img src="Screenshots/main.png" height="400" alt="Screenshot" /> <img src="Screenshots/prefs.png" height="400" alt="Screenshot"/> <img src="Screenshots/sugar.png" height="400" alt="Screenshot"/> <img src="Screenshots/conv.png" height="400" alt="Screenshot"/>
+<img src="Screenshots/main.png" height="300" alt="Screenshot" /> <img src="Screenshots/prefs.png" height="300" alt="Screenshot"/> <img src="Screenshots/sugar.png" height="300" alt="Screenshot"/> <img src="Screenshots/conv.png" height="300" alt="Screenshot"/>
 
 
 Sources:
