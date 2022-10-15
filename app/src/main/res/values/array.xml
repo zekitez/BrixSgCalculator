@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Label ordering must match values -->
+    <array name="pref_conv_method_labels">
+        <item>@string/pref_conv_label_bf</item>
+        <item>@string/pref_conv_label_eu</item>
+        <item>@string/pref_conv_label_le</item>
+        <item>@string/pref_conv_label_wh</item>
+        <item>@string/pref_conv_label_av</item>
+    </array>
+
+    <array name="pref_conv_method_values">
+        <item>@string/pref_conv_bf_value</item>
+        <item>@string/pref_conv_eu_value</item>
+        <item>@string/pref_conv_le_value</item>
+        <item>@string/pref_conv_wh_value</item>
+        <item>@string/pref_conv_av_value</item>
+    </array>
+
+    <array name="pref_solv_method_labels">
+        <item>@string/pref_solv_label_121</item>
+        <item>@string/pref_solv_label_none</item>
+    </array>
+
+    <array name="pref_solv_method_values">
+        <item>@string/pref_solv_121_value</item>
+        <item>@string/pref_solv_none_value</item>
+    </array>
+
+</resources>

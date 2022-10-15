@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TableRow android:layout_margin="1dp">
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:ems="10"
+                android:text="@string/liquid_has_brix_0_30" />
+            <EditText
+                android:id="@+id/inputBrix"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:ems="10"
+                android:hint="@string/number"
+                android:imeOptions="actionDone"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:text="@string/_0_0" />
+        </TableRow>
+
+        <TableRow android:layout_margin="1dp">
+            <TextView
+                android:id="@+id/textSg"
+                android:layout_width="0dip"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/txt_sg" />
+            <TextView
+                android:id="@+id/textBrix2Sg"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/_0_0" />
+        </TableRow>
+
+        <TableRow android:layout_margin="1dp">
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/sugar_eu_cee_2676_90_gr_l" />
+            <TextView
+                android:id="@+id/textEuBrix2Sugar"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/_0_0" />
+        </TableRow>
+
+        <TableRow android:layout_margin="1dp">
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/vol_alc_brix_60" />
+            <TextView
+                android:id="@+id/textBrix2VolAlc"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/_0_0" />
+        </TableRow>
+
+         <TableRow android:layout_margin="1dp">
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/vol_alc_eu_cee_2676_90" />
+            <TextView
+                android:id="@+id/textEuBrix2VolAlc"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/_0_0" />
+        </TableRow>
+
+
+        <TableRow android:layout_margin="10dp" />
+
+
+        <TableRow android:layout_margin="1dp">
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:ems="10"
+                android:textStyle="bold"
+                android:text="@string/liquid_has_sg_0_990_1_130" />
+            <EditText
+                android:id="@+id/inputSg"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:text="@string/_1_0" />
+        </TableRow>
+
+        <TableRow android:layout_margin="1dp">
+            <TextView
+                android:id="@+id/textBrix"
+                android:layout_width="0dip"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/txt_brix" />
+            <TextView
+                android:id="@+id/textSg2Brix"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/_0_0" />
+        </TableRow>
+
+        <TableRow android:layout_margin="1dp">
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/sugar_eu_cee_2676_90_gr_l" />
+            <TextView
+                android:id="@+id/textEuSg2Sugar"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/_0_0" />
+        </TableRow>
+
+        <TableRow android:layout_margin="1dp">
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/vol_alc_avgs_brix_60" />
+            <TextView
+                android:id="@+id/textSg2VolAlc"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/_0_0" />
+        </TableRow>
+
+        <TableRow android:layout_margin="1dp">
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/vol_alc_eu_cee_2676_90" />
+            <TextView
+                android:id="@+id/textEuSg2VolAlc"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/_0_0" />
+        </TableRow>
+
+
+        <TableRow android:layout_margin="10dp" />
+
+        <TableRow
+            android:layout_margin="1dp" >
+            <RadioGroup
+                android:id="@+id/RadioGroupBrixSg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButtonUseBrix"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:text="@string/use_brix" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonUseSg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:text="@string/use_sg" />
+
+            </RadioGroup>
+        </TableRow>
+
+        <TableRow android:layout_margin="1dp">
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:ems="10"
+                android:textStyle="bold"
+                android:text="@string/desired_vol_alc" />
+            <EditText
+                android:id="@+id/inputDesVolAlcohol"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:text="@string/_10_0" />
+        </TableRow>
+
+        <TableRow android:layout_margin="1dp">
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/required_brix" />
+            <TextView
+                android:id="@+id/textReqBrix"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/_0_0" />
+        </TableRow>
+
+        <TableRow android:layout_margin="1dp">
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/required_sg" />
+            <TextView
+                android:id="@+id/textReqSg"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/_0_0" />
+        </TableRow>
+
+        <TableRow android:layout_margin="1dp">
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/required_sugar_gr_l" />
+            <TextView
+                android:id="@+id/textReqSugar"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/_0_0" />
+        </TableRow>
+
+        <TableRow android:layout_margin="1dp">
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/missing_sugar_gr_l" />
+            <TextView
+                android:id="@+id/textMissingSugar"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/_0_0" />
+        </TableRow>
+
+        <TableRow android:layout_margin="10dp" />
+
+        <TableRow android:layout_margin="1dp">
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:ems="10"
+                android:textStyle="bold"
+                android:text="@string/available_liquid_liter" />
+            <EditText
+                android:id="@+id/inputVolumeJuice"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:ems="10"
+                android:hint="@string/number"
+                android:imeOptions="actionDone"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:text="@string/_0_0" />
+        </TableRow>
+
+        <TableRow android:layout_margin="1dp">
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/total_missing_sugar_gram" />
+            <TextView
+                android:id="@+id/textMissingSugarGram"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/_0_0" />
+        </TableRow>
+
+        <TableRow android:layout_margin="1dp">
+            <TextView
+                android:id="@+id/textSugarInWaterLtr"
+                android:layout_width="0dip"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/txt_solvMethodSugar" />
+        </TableRow>
+
+        <TableRow android:layout_margin="1dp">
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/required_water_gram_or_ml" />
+            <TextView
+                android:id="@+id/textSugarInWaterGram"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/_0_0" />
+        </TableRow>
+
+        <TableRow android:layout_margin="10dp" />
+
+        <TableRow android:layout_margin="1dp">
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/total_volume_liter" />
+            <TextView
+                android:id="@+id/textTotalVolume"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:ems="10"
+                android:text="@string/_0_0" />
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">BrixSgCalculator</string>
+
+    <string name="pref_conv_label_le" translatable="false">Lincoln equation</string>
+    <string name="pref_conv_label_bf" translatable="false">Brewers Friend</string>
+    <string name="pref_conv_label_wh" translatable="false">Winning HomeBrew</string>
+    <string name="pref_conv_label_eu" translatable="false">EU CEE 2676/90</string>
+    <string name="pref_conv_label_av" translatable="false">Average from all</string>
+
+    <string name="pref_conv_le_value" translatable="false">le</string>
+    <string name="pref_conv_bf_value" translatable="false">bf</string>
+    <string name="pref_conv_wh_value" translatable="false">wh</string>
+    <string name="pref_conv_eu_value" translatable="false">eu</string>
+    <string name="pref_conv_av_value" translatable="false">av</string>
+
+    <string name="pref_solv_label_121" translatable="false">Dissolve sugar in water, 1:1 volume, and add to the liquid</string>
+    <string name="pref_solv_label_none" translatable="false">Dissolve sugar in the available liquid (no extra water)</string>
+
+    <string name="pref_solv_121_value" translatable="false">1:1</string>
+    <string name="pref_solv_none_value" translatable="false">none</string>
+
+    <string name="txt_convMethodBrixSG">Conversion method BRIX - SG</string>
+    <string name="txt_solvMethodSugar">How to add sugar ?</string>
+    <string name="txt_sg">SG</string>
+    <string name="txt_brix">Brix</string>
+
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="liquid_has_brix_0_30">Liquid has BRIX [0 .. 30]</string>
+    <string name="number">Number</string>
+    <string name="sugar_eu_cee_2676_90_gr_l">Sugar (EU CEE 2676/90 gr/l)</string>
+    <string name="_0_0">0.0</string>
+    <string name="vol_alc_brix_60">Vol % Alc. (Brix 60%)</string>
+    <string name="vol_alc_eu_cee_2676_90">Vol % Alc.(EU CEE 2676/90)</string>
+    <string name="liquid_has_sg_0_990_1_130">Liquid has SG [0.990 .. 1.130]</string>
+    <string name="_1_0">1.0</string>
+    <string name="vol_alc_avgs_brix_60">Vol % Alc. (Avgs. Brix 60%)</string>
+    <string name="use_brix">Use BRIX</string>
+    <string name="use_sg">Use SG</string>
+    <string name="desired_vol_alc">Desired Vol % Alc.</string>
+    <string name="_10_0">10.0</string>
+    <string name="required_brix">Required BRIX</string>
+    <string name="required_sg">Required SG</string>
+    <string name="required_sugar_gr_l">Required sugar gr/l</string>
+    <string name="missing_sugar_gr_l">Missing sugar gr/l</string>
+    <string name="available_liquid_liter">Available liquid, liter</string>
+    <string name="total_missing_sugar_gram">Total missing sugar, gram</string>
+    <string name="required_water_gram_or_ml">Required water, gram or ml</string>
+    <string name="total_volume_liter">Total Volume, liter</string>
+
+</resources>

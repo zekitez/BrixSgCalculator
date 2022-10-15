@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="key_sw_sugar" translatable="false">swSugar</string>
+    <string name="key_convMethod" translatable="false">convMethod</string>
+    <string name="key_solvMethod" translatable="false">solvMethod</string>
+    <string name="key_InputBrix" translatable="false">InpBrix</string>
+    <string name="key_InputSg" translatable="false">InpSg</string>
+    <string name="key_InputDesVolAlcohol" translatable="false">InpDesVolAlcohol</string>
+    <string name="key_InputVolumeJuice" translatable="false">InpVolJuice</string>
+
+    <string name="key_privacyPolycyAccepted" translatable="false">PrivacyPolicyAccepted</string>
+    <string name="key_disclaimerAccepted" translatable="false">DisclaimerAccepted</string>
+
+</resources>
